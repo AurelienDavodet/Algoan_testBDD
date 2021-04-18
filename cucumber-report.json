@@ -1,0 +1,63 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "verify-title-h1-home-page;verify-the-h1-from-the-home-page",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Verify the h1 from the home page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "The browser is open",
+            "match": {
+              "location": "features\\step_definitions\\common_step.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 646000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Open the Algoan page",
+            "match": {
+              "location": "features\\step_definitions\\common_step.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4618000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "The text for the first header should be \"Credit decisioning as a Service\"",
+            "match": {
+              "location": "features\\step_definitions\\common_step.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3293000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "verify-title-h1-home-page",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Verify title h1 Home page",
+    "tags": [],
+    "uri": "features\\search.feature"
+  }
+]
