@@ -7,3 +7,5 @@ Ce test, rédigé en syntaxe Gherkin, demandera à Puppeteer d'ouvrir la page "h
 - Cloner le projet
 - npm i
 - npm test
+
+Le rapport est aussi disponible sur la page HTML à la racine du dossier
