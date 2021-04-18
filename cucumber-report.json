@@ -19,7 +19,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 646000000
+              "duration": 362000000
             }
           },
           {
@@ -32,20 +32,33 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4618000000
+              "duration": 2905000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "The h1 title exists",
+            "match": {
+              "location": "features\\step_definitions\\common_step.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 7,
+            "line": 8,
             "name": "The text for the first header should be \"Credit decisioning as a Service\"",
             "match": {
-              "location": "features\\step_definitions\\common_step.js:22"
+              "location": "features\\step_definitions\\common_step.js:24"
             },
             "result": {
               "status": "passed",
-              "duration": 3293000000
+              "duration": 2000000
             }
           }
         ],

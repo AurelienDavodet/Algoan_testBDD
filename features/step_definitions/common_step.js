@@ -17,16 +17,12 @@ When('Open the Algoan page', async function () {
     await this.page.goto("https://www.algoan.com/")
 });
 
+When('The h1 title exists', async function () {
+    textContent = await this.page.evaluate(() => document.querySelector('.fQXZv').textContent);
+  });
 
-
-Then('The text for the first header should be "Credit decisioning as a Service"', async () =>{
-  this.browser = await puppeteer.launch({headless:false})
-  this.page = await this.browser.newPage();
-  await this.page.goto("https://www.algoan.com/")
-
-  await this.page.waitForSelector('.fQXZv');
-const textContent = await this.page.evaluate(() => document.querySelector('.fQXZv').textContent);
-console.log('Page title = ' + textContent);
-  
+  Then(/The text for the first header should be "(.+)"/, async (title) =>{
+    console.log('Page title = ' + textContent);
+    equal(textContent, title);
 
 });

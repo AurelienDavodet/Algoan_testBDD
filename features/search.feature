@@ -4,4 +4,5 @@ Feature: Verify title h1 Home page
     Scenario: Verify the h1 from the home page
         Given The browser is open
         When Open the Algoan page
+        And The h1 title exists
         Then The text for the first header should be "Credit decisioning as a Service"
